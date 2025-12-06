@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header img{
+width:150px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+   background-color:#fa3232 ;
+   padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+.hero {
+    background-color:#01BEF1 ;
+    padding: 64px 32px;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 32px;
+}
+
+.content h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 16px;
+}
+
+.content p {
+    font-size: 17.6px;
+    margin-bottom: 32px;
+    color: #555;
+}
+
+.content ul {
+    list-style-position: inside;
+    font-size: 17.6px;
+    color: #555;
+    margin-bottom: 48px;
+}
+
+.content ul li {
+    margin-bottom: 8px;
+}
+
+.gallery {
+    padding: 48px 32px;
+    background: ;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.gallery-grid {
+    display: flex;
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 19.2px;
+}
+
+footer {
+    background-color:#fa3232 ;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 32px;
+    margin-top: 48px;
+}
